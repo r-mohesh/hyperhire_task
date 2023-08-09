@@ -23,7 +23,7 @@ const options = {
     },
     servers: [
       {
-        url: `http://localhost:${PORT}`,
+        url: `https://hyperhiretask-0w6l.onrender.com`,
       },
     ],
   },
