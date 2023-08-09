@@ -34,7 +34,7 @@ router.get("/tradable-coins", async (req, res) => {
     const tradableCoins = await BinanceService.getTradableCoins();
     res.status(200).json({ tradableCoins });
   } catch (error) {
-    res.status(500).json({ error: "Internal server error" });
+    res.status(500).json({ error: error });
   }
 });
 
