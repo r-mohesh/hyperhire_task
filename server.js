@@ -23,7 +23,7 @@ const options = {
     },
     servers: [
       {
-        url: `https://hyperhiretask-0w6l.onrender.com`,
+        url: `https://hyperhiretaskk.onrender.com`,
       },
     ],
   },
