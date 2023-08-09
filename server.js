@@ -5,11 +5,13 @@ const binanceController = require("./controllers/binanceController");
 const dotenv = require("dotenv").config();
 const swaggerUI = require("swagger-ui-express");
 const swaggerJsDoc = require("swagger-jsdoc");
+const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 const options = {
   definition: {
